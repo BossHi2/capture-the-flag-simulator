@@ -1,0 +1,72 @@
+.flag{
+    width: 27px;
+    height: 55px;
+    z-index: 2;
+    position: relative;
+    top: 0px;
+}
+.flag-wrapper{
+    top: calc(502px/2 - 55px/2);
+    position: relative;
+}
+.flag-radius{
+    width: 150px;
+    height: 150px;
+    
+    border-radius: 50%;
+    position: absolute;
+    
+    z-index: 1;
+}
+.hasRedFlag{
+    border: 5px solid rgb(108, 0, 0);
+}
+.hasBlueFlag{
+    border: 5px solid rgb(0, 0, 108);
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+
+.flag-radius-wrapper{
+    width: 75px;
+    height: 150px;
+    position: absolute;
+    top: -37.5px;
+    left: 0px;
+    direction: rtl;
+    overflow: hidden;
+}
+
+.game-board{
+    background-color: green;
+    width: 850px;
+    height: 502px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%);
+    position: relative;
+}
+
+.flag-wrapper-right{
+    transform: scale(-1, 1);
+    position: relative;
+    top: calc(502px/2 - 55px*1.6);
+}
+
+.player{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+.countdown{
+    background-color: rgb(238, 0, 255);
+    height: 5px;
+    width: 20px;
+    position: relative;
+    top: -7px;
+}
