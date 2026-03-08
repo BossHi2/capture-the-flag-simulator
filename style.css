@@ -1,23 +1,9 @@
 .flag{
-    width: 27px;
-    height: 55px;
-    z-index: 2;
-    position: relative;
-    top: 0px;
-}
-.flag-wrapper{
-    top: calc(502px/2 - 55px/2);
-    position: relative;
-}
-.flag-radius{
-    width: 150px;
-    height: 150px;
-    
-    border-radius: 50%;
+    height: 502px;
+    width: 20px;
     position: absolute;
-    
-    z-index: 1;
 }
+
 .hasRedFlag{
     border: 5px solid rgb(108, 0, 0);
 }
@@ -31,15 +17,6 @@
     background-color: blue;
 }
 
-.flag-radius-wrapper{
-    width: 75px;
-    height: 150px;
-    position: absolute;
-    top: -37.5px;
-    left: 0px;
-    direction: rtl;
-    overflow: hidden;
-}
 
 .game-board{
     background-color: green;
@@ -49,12 +26,6 @@
     right: 50%;
     transform: translate(-50%);
     position: relative;
-}
-
-.flag-wrapper-right{
-    transform: scale(-1, 1);
-    position: relative;
-    top: calc(502px/2 - 55px*1.6);
 }
 
 .player{
